@@ -9,11 +9,11 @@ import tweepy
 from textblob import TextBlob
 from textblob.sentiments import NaiveBayesAnalyzer
 
-
-api_key = 'Ao5bOlH9cyCcrvLOP5GnneVba'
-api_secret = 'DkNyj2MqxI7UsK4n5L5k3irZMxZCYDroqQTNbA1MA8ZNm1HpGW'
-access_token = '348416485-rlB3bVcPeMMvnRLqnaAXz23xTQUumaCzZCdMQcGH'
-access_secret = 'p6DCAwCKmAGRfYhsLPMCSiBJxY0X5bWZCMZGhfWnInnVn'
+#Enter your keys below
+api_key = ''
+api_secret = ''
+access_token = ''
+access_secret = ''
 
 twitter = tweepy.OAuthHandler(api_key, api_secret)
 api = tweepy.API(twitter)
